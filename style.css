@@ -1,0 +1,20 @@
+root {
+	display: block;
+}
+div.viewingBox {
+	width: 500px;
+	height: 400px;
+	position: relative;
+	border: 5px solid #222;
+	overflow: scroll;
+}
+div.innerMap {
+	position: absolute;
+}
+span.mapTile {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border: 1px solid black;
+	background: #C0FFBA;
+}
